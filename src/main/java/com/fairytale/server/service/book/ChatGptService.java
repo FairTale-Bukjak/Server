@@ -9,7 +9,7 @@ import org.springframework.web.client.RestTemplate;
 @Service
 public class ChatGptService {
     private final String API_URL = "https://api.openai.com/v1/chat/completions";
-    private final String API_KEY = "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";
+    private final String API_KEY = "sk-oUwFzksp2gcNN4l********bkFJu8jv0FZyhUEzNQgY1oK5";
 
     public ChatGptResponseDto getChatGptResponse(ChatGptRequestDto requestDto) {
         System.out.println(requestDto.getPrompt());
